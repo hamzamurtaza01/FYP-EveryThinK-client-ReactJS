@@ -1,0 +1,158 @@
+ /* #body {
+    background-color: #ffffff;
+} */
+/*
+#bodyMessage {
+    max-height: 550px;
+}    */
+.overflow
+{
+    overflow-y:scroll ;
+    width: 100%;
+    height: 445px;
+    /* border: 1px solid #007BFF; */
+    /* background-color: #  F1F1F1; */
+}
+.overflowMess
+{
+    overflow-y:scroll ;
+    width: 100%;
+    height: 445px;
+}
+
+.overflowMess::-webkit-scrollbar {
+    width: .4em; 
+  }
+  .overflowMess::-webkit-scrollbar,
+.overflowMess::-webkit-scrollbar-thumb {
+  overflow:visible;
+  border-radius: 4px;
+}
+.overflowMess::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,.2); 
+}
+
+
+.overflow::-webkit-scrollbar {
+    width: .4em; 
+  }
+  .overflow::-webkit-scrollbar,
+.overflow::-webkit-scrollbar-thumb {
+  overflow:visible;
+  border-radius: 4px;
+}
+.overflow::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,.2); 
+}
+.cover-bar {
+    position: absolute;
+    background: #fff;
+    height: 100%;  
+    top: 0;
+    right: 0;
+    width: .4em;
+    -webkit-transition: all .5s;
+    opacity: 1;
+  }
+  /* .overflow:hover .cover-bar {
+    opacity: 0;
+   -webkit-transition: all .5s;
+ } */
+.messcontainer {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 98%;
+    /* text-align: justify; */
+}
+.recents {
+    border: 1px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    width: auto;
+    text-align: justify;
+}
+
+.recents:hover
+{
+    background-color: #ffffff;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.messcontainer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.messcontainer img {
+    float: left;
+    /* max-width: 60px; */
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.messcontainer img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.avatarmess {
+    /* position: absolute; */
+    /* display: inline-block; */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+  .avatarmess img
+   {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    cursor: pointer;
+  }
+  
+/* #btnSnd */
+/* { */
+/* margin:10px; */
+/* color: black; */
+/* background-color: #E9EBEE; */
+/* border: solid 1px #007BFF; */
+/* } */
+#messHead
+{
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid;
+    padding:5px;
+    background-color: white;
+    height: 50px;
+}
+.classname
+{
+    white-space: nowrap; 
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}

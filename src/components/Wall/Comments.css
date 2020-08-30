@@ -1,0 +1,8 @@
+.DotCOmments {
+    height: 4px;
+    width: 4px;
+    background-color: #395498;
+    border-radius: 50%;
+    /* display:grid; */
+    margin: 0px 0px 0px 2px;
+}

@@ -1,0 +1,17 @@
+/* .landing-component {
+    background: url(../../Images/online\ school.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height:505px;
+  margin: -17px 0 0px 29px;
+} */
+
+
+/* style={{backgroundImage: `url(${LandingImage})`,height:'368.08px',width:'100%',backgroundSize:'cover'}} */
+
+.landing-component
+{
+    /* display: block; */
+    margin-left: 12px;
+    /* margin-right: auto; */
+    /* width: 500%; */
+}

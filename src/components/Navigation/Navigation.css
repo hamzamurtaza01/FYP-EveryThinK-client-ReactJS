@@ -1,0 +1,17 @@
+/* #navbar
+{ 
+    margin: 10px 50px 0px 0px;
+    padding: 0px 10px 0px 0px;
+}  */
+/* #navbar:hover
+{
+    background-color: #E9EBEE;
+    border-radius: 25px;
+} */
+#linkColor
+{
+color: #395498;
+font-size: larger;
+text-decoration: none;
+}
+

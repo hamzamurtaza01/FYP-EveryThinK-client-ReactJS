@@ -1,0 +1,27 @@
+.overflow::-webkit-scrollbar {
+    width: .4em; 
+  }
+  .overflow::-webkit-scrollbar,
+.overflow::-webkit-scrollbar-thumb {
+  overflow:visible;
+  border-radius: 4px;
+}
+.overflow::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,.2); 
+}
+
+.TextOverFlowControl{
+    white-space: nowrap; 
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.dotsDropDown {
+    height: 5px;
+    width: 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display:grid;
+    margin: 0 0 2px 0;
+    /* float: right; */
+}

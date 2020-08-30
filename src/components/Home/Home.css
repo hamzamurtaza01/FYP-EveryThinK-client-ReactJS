@@ -1,0 +1,14 @@
+.dropdown{
+    position: inherit !important;
+}
+
+.dropup{
+    position: inherit !important;
+}
+
+.SideBar
+{
+    height: 500px;
+    background-color: #ffffff;
+    /* position: fixed; */
+}
